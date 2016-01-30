@@ -1,0 +1,7 @@
+# Generated
+node_modules
+platforms
+hooks
+
+# This is using typescript, js is generated
+*.js

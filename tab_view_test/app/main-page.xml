@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <Page.actionBar>
+        <ActionBar title="Title">
+            <ActionBar.titleView >
+                <SearchBar loaded="search_bar_loaded" hint="Enter a URL" />
+            </ActionBar.titleView>
+            <ActionBar.actionItems>
+                <ActionItem text="∆" ios.position="right" />
+                <ActionItem text="…" ios.position="right" />
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+    <AbsoluteLayout id="tabs-container">
+    </AbsoluteLayout>
+</Page>
